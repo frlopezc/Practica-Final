@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ejercicio2</title>
+		<link rel="stylesheet" href="Css/style.css" media="screen" title="no title">
+	 <meta name="tipo_contenido"  content="text/html;" http-equiv="content-type" charset="utf-8">
+	 <script src="https://use.fontawesome.com/cee79575d1.js"></script>
+	 <script type="text/javascript" src="javascript.js"></script>
+	 </head>
+  <body>
+  <div id="Encabezado">
+    <div class="titulo">
+			<img src="Imagenes/Logo.jpg" alt="Logo">
+
+    </div>
+    <div id="barralinks" class="barralinks">
+      <div id="Usuario2" class="Usuario">
+				<a id="MenuIzq1" class="MenuIzq" href="LoginDeCuenta.html">ENTRA</a>
+				<a id="MenuIzq2" class="MenuIzq" href="Formulario.html">Registrate</a>
+        <p id="UsuarioFoto"><img id=UsuarioF src="Imagenes/empiezalaprueba.jpg" alt="logo"></p>
+      </div>
+
+    <nav >
+			<ul id="LALA">
+				<li><a href="Fotos">Fotos</a></li>
+				<li><a href="Reparto">Reparto</a></li>
+				<li><a href="Sinopsis">Sinopsis</a></li>
+				<li><a href="Propiedad de cuenta ">Propiedad de cuenta ▼ </a></li>
+      </ul>
+		</nav>
+  </div>
+  </div>
+
+
+	<script type="text/javascript">
+
+	ocultar('MenuIzq1');
+	ocultar('MenuIzq2');
+	ocultar('LALA');
+	cambiarUsuario();
+	</script>
+
+
+		<div class="3fotos">
+    <div id=fotaza1 class="fotoGrid1">
+
+      	<a href="https://www.google.es/search?q=250x140+how+to+get+away+with+murder&espv=2&biw=1093&bih=471&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj3vYqj-r7PAhVJmh4KHX9zCTIQ_AUIBigB#tbm=isch&q=+how+to+get+away+with+murder&imgrc=7hu1ZgHgx4GcHM%3A"><img class="pruebita" src="Imagenes/AA.jpg" alt="Logo"></a>
+      <p><b> HTGAWM</b>
+				<a ><i onclick="yaCompartido()" class="fa fa-share-alt" aria-hidden="true"></i></a>
+        <a><i onclick="comenta('texto1','boton1')" class="fa fa-bookmark" aria-hidden="true"></i></a>
+				<a><i onclick="CambioColor('corazon1')" class="fa fa-heart grey" id="corazon1" aria-hidden="true"></i></a>
+      </p>
+					<div id="parrafo1" class="parrafazo"></div>
+			<div>	<textarea  id="texto1" style='display:none;'></textarea></div>
+				<script type="text/javascript">
+						ocultar('texto1');
+						</script>
+						<div><input type="button" onclick="comentarioTexto('texto1','boton1','parrafo1')"  value="Comenta" class="botoncito" id="boton1">
+						    </div>
+				<script type="text/javascript">
+						ocultar('boton1');
+							</script>
+    </div>
+    <div id=fotaza2 class="fotoGrid2">
+      	<a href="https://www.google.es/search?q=250x140+how+to+get+away+with+murder&espv=2&biw=1093&bih=471&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj3vYqj-r7PAhVJmh4KHX9zCTIQ_AUIBigB#imgrc=vD0GLI5YQEV1DM%3A"><img class="pruebita" src="Imagenes/class101.jpg" alt="Logo"></a>
+      <p><b> Annalise Keating</b>
+				<a ><i onclick="yaCompartido()" class="fa fa-share-alt" aria-hidden="true"></i></a>
+        <a><i onclick="comenta('texto2','boton2')" class="fa fa-bookmark" aria-hidden="true"></i>
+<a><i onclick="CambioColor('corazon2')" class="fa fa-heart grey" id="corazon2" aria-hidden="true"></i></a>      </p>
+		<div id="parrafo2" class="parrafazo"></div>
+			<div><textarea  id="texto2" style='display:none;'></textarea></div>
+			<script type="text/javascript">
+					ocultar('texto2');
+					</script>
+					<div><input type="button" onclick="comentarioTexto('texto2','boton2','parrafo2')"  value="Comenta" class="botoncito" id="boton2">
+					    </div>
+			<script type="text/javascript">
+					ocultar('boton2');
+						</script>
+    </div>
+    <div id=fotaza3 class="fotoGrid3">
+      	<a href="https://www.google.es/search?q=250x140+how+to+get+away+with+murder&espv=2&biw=1093&bih=471&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj3vYqj-r7PAhVJmh4KHX9zCTIQ_AUIBigB#imgrc=eW9hvlefMgB8TM%3A"><img class="pruebita" src="Imagenes/connor.jpg" alt="Logo"></a>
+      <p> <b>Connor Walsh</b>
+				<a ><i  onclick="yaCompartido()" class="fa fa-share-alt" aria-hidden="true"></i></a>
+        <a ><i  onclick="comenta('texto3','boton3')" class="fa fa-bookmark" aria-hidden="true"></i></a>
+<a><i onclick="CambioColor('corazon3')" class="fa fa-heart grey" id="corazon3" aria-hidden="true"></i></a>      </p>
+		<div id="parrafo3" class="parrafazo"></div>
+			<div><textarea  id="texto3" style='display:none;'></textarea></div>
+			<script type="text/javascript">
+					ocultar('texto3');
+					</script>
+					<div><input type="button" onclick="comentarioTexto('texto3','boton3','parrafo3')"  value="Comenta" class="botoncito" id="boton3">
+					    </div>
+			<script type="text/javascript">
+					ocultar('boton3');
+						</script>
+    </div>
+	</div>
+				<div class="3fotos">
+    <div id=fotaza4 class="fotoGrid1">
+      	<a href="https://www.google.es/search?q=250x140+how+to+get+away+with+murder&espv=2&biw=1093&bih=471&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj3vYqj-r7PAhVJmh4KHX9zCTIQ_AUIBigB#imgrc=Ut9jH9xrhb9pFM%3A"><img class="pruebita" src="Imagenes/frank.jpg" alt="Logo"></a>
+			<p><b> Wallace Mahoney</b>
+				<a ><i onclick="yaCompartido()" class="fa fa-share-alt" aria-hidden="true"></i></a>
+        <a ><i onclick="comenta('texto4','boton4')" class="fa fa-bookmark" aria-hidden="true"></i></a>
+<a><i onclick="CambioColor('corazon4')" class="fa fa-heart grey" id="corazon4" aria-hidden="true"></i></a>      </p>
+		<div id="parrafo4" class="parrafazo"></div>
+			<div><textarea  id="texto4" style='display:none;'></textarea></div>
+			<script type="text/javascript">
+					ocultar('texto4');
+					</script>
+					<div><input type="button" onclick="comentarioTexto('texto4','boton4','parrafo4')"  value="Comenta" class="botoncito" id="boton4">
+					    </div>
+			<script type="text/javascript">
+					ocultar('boton4');
+						</script>
+    </div>
+    <div id=fotaza5 class="fotoGrid2">
+      	<a href="https://www.google.es/search?q=250x140+how+to+get+away+with+murder&espv=2&biw=1093&bih=471&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj3vYqj-r7PAhVJmh4KHX9zCTIQ_AUIBigB#imgrc=Q-qr4LGTToIWGM%3A"><img class="pruebita" src="Imagenes/Laurel.jpg" alt="Logo"></a>
+      <p><b> Laurel Castillo</b>
+				<a ><i onclick="yaCompartido()" class="fa fa-share-alt" aria-hidden="true"></i></a>
+        <a><i  onclick="comenta('texto5','boton5')"class="fa fa-bookmark" aria-hidden="true"></i></a>
+<a><i onclick="CambioColor('corazon5')" class="fa fa-heart grey" id="corazon5" aria-hidden="true"></i></a>      </p>
+		<div id="parrafo5" class="parrafazo"></div>
+			<div><textarea  id="texto5" style='display:none;'></textarea></div>
+			<script type="text/javascript">
+					ocultar('texto5');
+					</script>
+					<div><input type="button" onclick="comentarioTexto('texto5','boton5','parrafo5')"  value="Comenta" class="botoncito" id="boton5">
+					    </div>
+			<script type="text/javascript">
+					ocultar('boton5');
+						</script>
+    </div>
+    <div id=fotaza6 class="fotoGrid3">
+      	<a href="https://www.google.es/search?q=250x140+how+to+get+away+with+murder&espv=2&biw=1093&bih=471&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj3vYqj-r7PAhVJmh4KHX9zCTIQ_AUIBigB#imgrc=s_w6OWoS6pgITM%3A"><img class="pruebita" src="Imagenes/nate.jpg" alt="Logo"></a>
+      <p><b> Nate Lahey</b>
+				<a ><i onclick="yaCompartido()" class="fa fa-share-alt" aria-hidden="true"></i></a>
+        <a ><i onclick="comenta('texto6','boton6')" class="fa fa-bookmark" aria-hidden="true"></i></a>
+<a><i onclick="CambioColor('corazon6')" class="fa fa-heart grey" id="corazon6" aria-hidden="true"></i></a>      </p>
+		<div id="parrafo6" class="parrafazo"></div>
+			<div><textarea  id="texto6" style='display:none;'></textarea></div>
+			<script type="text/javascript">
+					ocultar('texto6');
+					</script>
+					<div><input type="button" onclick="comentarioTexto('texto6','boton6','parrafo6')"  value="Comenta" class="botoncito" id="boton6">
+					    </div>
+			<script type="text/javascript">
+					ocultar('boton6');
+						</script>
+		</div>
+	</div>
+				<div class="3fotos">
+    <div id=fotaza7 class="fotoGrid1">
+      	<a href="https://www.google.es/search?q=250x140+how+to+get+away+with+murder&espv=2&biw=1093&bih=471&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj3vYqj-r7PAhVJmh4KHX9zCTIQ_AUIBigB#imgrc=suN9oqpOE0h3RM%3A"><img class="pruebita" src="Imagenes/wes.jpg" alt="Logo"></a>
+      <p> <b>Wes Gibbins</b>
+				<a ><i onclick="yaCompartido()" class="fa fa-share-alt" aria-hidden="true"></i></a>
+        <a ><i  onclick="comenta('texto7','boton7')" class="fa fa-bookmark" aria-hidden="true"></i></a>
+<a><i onclick="CambioColor('corazon7')" class="fa fa-heart grey" id="corazon7" aria-hidden="true"></i></a>      </p>
+		<div id="parrafo7" class="parrafazo"></div>
+			<div>	<textarea  id="texto7" style='display:none;'></textarea></div>
+			<script type="text/javascript">
+					ocultar('texto7');
+					</script>
+					<div><input type="button" onclick="comentarioTexto('texto7','boton7','parrafo7')"  value="Comenta" class="botoncito" id="boton7">
+					    </div>
+
+			<script type="text/javascript">
+					ocultar('boton7');
+						</script>
+	  </div>
+    <div id=fotaza8 class="fotoGrid2">
+      	<a href="https://www.google.es/search?q=250x140+how+to+get+away+with+murder&espv=2&biw=1093&bih=471&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj3vYqj-r7PAhVJmh4KHX9zCTIQ_AUIBigB#imgrc=cu11p_4hVAOsaM%3A"><img class="pruebita" src="Imagenes/michaella.jpg" alt="Logo"></a>
+      <p><b> Michaela Pratt</b>
+				<a ><i onclick="yaCompartido()" class="fa fa-share-alt" aria-hidden="true"></i></a>
+        <a><i onclick="comenta('texto8','boton8')" class="fa fa-bookmark" aria-hidden="true"></i></a>
+<a><i onclick="CambioColor('corazon8')" class="fa fa-heart grey" id="corazon8" aria-hidden="true"></i></a>      </p>
+		<div id="parrafo8" class="parrafazo"></div>
+			<div><textarea  id="texto8" style='display:none;'></textarea></div>
+			<script type="text/javascript">
+					ocultar('texto8');
+					</script>
+					<div><input type="button" onclick="comentarioTexto('texto8','boton8','parrafo8')"  value="Comenta" class="botoncito" id="boton8">
+					    </div>
+			<script type="text/javascript">
+					ocultar('boton8');
+						</script>
+    </div>
+    <div id=fotaza9 class="fotoGrid3">
+      	<a href="https://www.google.es/search?q=250x140+how+to+get+away+with+murder&espv=2&biw=1093&bih=471&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj3vYqj-r7PAhVJmh4KHX9zCTIQ_AUIBigB#imgrc=WtaSkvLYmFujxM%3A"><img class="pruebita" src="Imagenes/todogrupo.jpg" alt="Logo"></a>
+      <p> <b>Annalise,Frank y Bonnie </b>
+				<a><i onclick="yaCompartido()" class="fa fa-share-alt" aria-hidden="true"></i></a>
+        <a><i onclick="comenta('texto9','boton9')"class="fa fa-bookmark" aria-hidden="true"></i></a>
+<a><i onclick="CambioColor('corazon9')" class="fa fa-heart grey" id="corazon9" aria-hidden="true"></i></a>      </p>
+		<div id="parrafo9"class="parrafazo"></div>
+		<div>	<textarea  id="texto9" style='display:none;'>	</textarea></div>
+			<script type="text/javascript">
+					ocultar('texto9');
+					</script>
+			<div><input type="button" onclick="comentarioTexto('texto9','boton9','parrafo9')"  value="Comenta" class="botoncito" id="boton9">
+
+			</div>
+
+			<script type="text/javascript">
+					ocultar('boton9');
+					</script>
+    </div>
+	</div>
+
+	<div class="footer">
+			<a href="https://twitter.com/">Twitter </a>
+			<a> | </a>
+			<a href="https://www.instagram.com/">Instagram </a>
+			<a> | </a>
+			<a href="https://www.facebook.com/">Facebook </a>
+			<a> | </a>
+			<p><b>  © 2016 Club de fans de How To Get Away With Murder </b></p>
+		</div>
+		<div id="barraaceptacion" style="display: block;">
+    <div class="inner">
+        Solicitamos su permiso para obtener datos estadísticos de su navegación en esta web, en cumplimiento del Real
+        Decreto-ley 13/2012. Si continúa navegando consideramos que acepta el uso de cookies.
+        <a href="javascript:void(0);" class="ok" onclick="PonerCookie();"><b>OK</b></a> |
+        <a href="http://politicadecookies.com" target="_blank" class="info">Más información</a>
+    </div>
+</div>
+	</body>
+	</html>

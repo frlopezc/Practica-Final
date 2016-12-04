@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ejercicio2</title>
+		<link rel="stylesheet" href="Css/style.css" media="screen" title="no title">
+	 <meta name="tipo_contenido"  content="text/html;" http-equiv="content-type" charset="utf-8">
+	 <script src="https://use.fontawesome.com/cee79575d1.js"></script>
+	 <script type="text/javascript" src="javascript.js"></script>
+	 </head>
+  <body>
+  <div id="Encabezado">
+    <div class="titulo">
+			<img src="Imagenes/Logo.jpg" alt="Logo">
+
+    </div>
+    <div id="barralinks" class="barralinks">
+      <div id="Usuario2" class="Usuario">
+				<a id="MenuIzq1" class="MenuIzq" href="LoginDeCuenta.html">ENTRA</a>
+				<a id="MenuIzq2" class="MenuIzq" href="Formulario.html">Registrate</a>
+      </div>
+
+    <nav >
+			<ul id="LALA">
+				<li><a href="Fotos">Fotos</a></li>
+				<li><a href="Reparto">Reparto</a></li>
+				<li><a href="Sinopsis">Sinopsis</a></li>
+				<li><a href="Propiedad de cuenta ">Propiedad de cuenta ▼ </a></li>
+      </ul>
+		</nav>
+  </div>
+  </div>
+
+
+	<script type="text/javascript">
+	mostrar('MenuIzq1');
+	mostrar('MenuIzq2');
+	ocultar('LALA');
+	</script>
+
+<form id="FormularioEntrar">
+            <label>Usuario</label>
+                <input id="campo1" name="Usuario" type="text" required/>
+							<br><br>
+            <label>Contraseña</label>
+                <input id="campo2" type="password" name="Pass" maxlength="8" required/>
+								<br><br>
+            <input id="campo3" type="button" value="Entrar" onclick="comprobarCookie('campo1','campo2')" />
+</form>
+
+	<div class="footer">
+			<a href="https://twitter.com/">Twitter </a>
+			<a> | </a>
+			<a href="https://www.instagram.com/">Instagram </a>
+			<a> | </a>
+			<a href="https://www.facebook.com/">Facebook </a>
+			<a> | </a>
+			<p><b>  © 2016 Club de fans de How To Get Away With Murder </b></p>
+		</div>
+		<div id="barraaceptacion" style="display: block;">
+    <div class="inner">
+        Solicitamos su permiso para obtener datos estadísticos de su navegación en esta web, en cumplimiento del Real
+        Decreto-ley 13/2012. Si continúa navegando consideramos que acepta el uso de cookies.
+        <a href="javascript:void(0);" class="ok" onclick="PonerCookie();"><b>OK</b></a> |
+        <a href="http://politicadecookies.com" target="_blank" class="info">Más información</a>
+    </div>
+</div>
+	</body>
+	</html>

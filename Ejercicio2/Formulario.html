@@ -1,0 +1,150 @@
+
+<html>
+	<head>
+		<title>Ejercicio2</title>
+		<link rel="stylesheet" href="Css/style.css" media="screen" title="no title">
+	 <meta name="tipo_contenido"  content="text/html;" http-equiv="content-type" charset="utf-8">
+	 <script src="https://use.fontawesome.com/cee79575d1.js"></script>
+	 <script type="text/javascript" src="javascript.js"></script>
+	 </head>
+  <body>
+  <div id="Encabezado">
+    <div class="titulo">
+			<img src="Imagenes/Logo.jpg" alt="Logo">
+
+    </div>
+    <div id="barralinks" class="barralinks">
+      <div id="Usuario2" class="Usuario">
+				<a id="MenuIzq1" class="MenuIzq" href="LoginDeCuenta.html">ENTRA</a>
+				<a id="MenuIzq2" class="MenuIzq" href="Formulario.html">Registrate</a>
+      </div>
+
+    <nav >
+			<ul id="LALA">
+				<li><a href="Fotos">Fotos</a></li>
+				<li><a href="Reparto">Reparto</a></li>
+				<li><a href="Sinopsis">Sinopsis</a></li>
+				<li><a href="Propiedad de cuenta ">Propiedad de cuenta ▼ </a></li>
+      </ul>
+		</nav>
+  </div>
+  </div>
+
+
+	<script type="text/javascript">
+	mostrar('MenuIzq1');
+	mostrar('MenuIzq2');
+	ocultar('LALA');
+	</script>
+
+  <form id="FormularioRegistroUsuario" onsubmit="ValidacionFormulario()" action="mailto:usuario@yahoo.es" method="post"
+  enctype="text/plain">
+  Rellene el siguiente registro para formar parte del primero y mejor club de fans de todos los tiempos
+  de HTGAWM,tenga en cuenta que aquellos campos con (*) son obligatorios. Nos veremos pronto en los foros
+  para conocer ¿Who killed Lyla Stangard?
+  <br><br>
+<fieldset>
+
+  <legend >Registro </legend>
+  Nombre(*):<br>
+  <input id="Nombre" type="text" name="Nombre" required/>
+  <br>
+
+  Apellido1 (*): <br>
+  <input id="Apellido1" type="text" name="Apellido1" required/>
+  <br>
+
+  Apellido2 (*): <br>
+  <input id="Apellido2" type="text" name="Apellido2" required/>
+  <br>
+  Email(*):<br>
+  <input id="Email" type="email" pattern="^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$" name="Email"
+  required/>
+
+	<br>
+	Confirmación de Email:<br>
+	<input id="ConfirmarEmail" type="email" pattern="^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$" name="Email"
+  required/>
+  <br><br>
+  </fieldset>
+  <br><br>
+  <fieldset>
+
+    <legend>Información Usuario </legend>
+    Nombre de Usuario(*):<br>
+    <input id="user" type="text" name="Usuario" required/>
+    <br>
+
+    Contraseña (*): <br>
+    <input id="contras" type="password" name="Contraseña" maxlegth="8" pattern="^[a-z0-9]{1,8}$" required/>
+    <br>
+
+    Confirmar Contraseña (*): <br>
+    <input id="ConfirmarPass" type="password" name="ConfirmarContraseña" maxlegth="8" pattern="^[a-z0-9]{1,8}$" required/>
+    <br>
+    Imagen de Perfil:<br>
+    <input id="ImagenPerfil" type="file" name="ImagenPerfil" accept="image/*">
+    <br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Información de intereses y hobbies</legend>
+      Areas de interes:<br>
+      <input type="checkbox" name="Interes1" value="Tecnologia"> Tecnologia
+      <br>
+      <input type="checkbox" name="Interes2" value="Cultura"> Cultura
+      <br>
+      <input type="checkbox" name="Interes3" value="Arte"> Arte
+      <br>
+      <input type="checkbox" name="Interes4" value="Deportes"> Deportes
+      <br>
+      <br>
+      Relacion con la fotografia:<br>
+      <select name="RelacionFotografica" onChange="MostrarCampos('Profesional')" id="GradoProfesionalidad" required/>
+      <option id="Prof">Profesional</option>
+      <option id="Afic">Aficionado</option>
+    </select>
+    <br><br>
+		<div id="Profesional">
+    Nombre del estudio:<br>
+    <input id="NombreDelEstudio" type="text" name="NombreDelEstudio" required/>
+    <br>
+    Direccion:<br>
+    <input id="Direccion" type="text" name="Direccion" required/>
+    <br>
+    Dirección 2(opcional):<br>
+    <input id="Direccion2" type="text" name="Direccion2" required/>
+    <br>
+	</div>
+    Telefono de Contacto:<br>
+    <input id="TelefonoContacto" type="tel" name=TelefonoContacto pattern="^[0-9]{9,9}$" maxlength="9" required/>
+</fieldset>
+<br><br>
+<input id="TerminosCondicionesUso" type="checkbox" name="TerminosCondicionesUso" value="Terminos" required/>He leido y acepto las Condiciones de uso.
+<br><br>
+	<input type="submit" value="registrarse">
+    </fieldset>
+  </form>
+  </body>
+
+		<div class="footer">
+				<a href="https://twitter.com/">Twitter </a>
+				<a> | </a>
+				<a href="https://www.instagram.com/">Instagram </a>
+				<a> | </a>
+				<a href="https://www.facebook.com/">Facebook </a>
+				<a> | </a>
+				<p><b>  © 2016 Club de fans de How To Get Away With Murder </b></p>
+			</div>
+			<div id="barraaceptacion" style="display: block;">
+	    <div class="inner">
+	        Solicitamos su permiso para obtener datos estadísticos de su navegación en esta web, en cumplimiento del Real
+	        Decreto-ley 13/2012. Si continúa navegando consideramos que acepta el uso de cookies.
+	        <a href="javascript:void(0);" class="ok" onclick="PonerCookie();"><b>OK</b></a> |
+	        <a href="http://politicadecookies.com" target="_blank" class="info">Más información</a>
+	    </div>
+	</div>
+	<script type="text/javascript">
+	</script>
+		</body>
+		</html>
